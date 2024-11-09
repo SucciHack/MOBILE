@@ -1,0 +1,13 @@
+.main-nav{
+    background-color: #ffcb05;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & img{
+        width: 6rem;
+    }
+    & i{
+        font-size: 2rem;
+    }
+}

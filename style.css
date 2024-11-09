@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+nav {
+  font-family: "Mona Sans", sans-serif;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 9999;
+}
+nav .nav-icons {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 375px;
+  padding: 0 10px;
+}
+nav .nav-icons .flexDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-icons .flexDiv .icon1 {
+  font-size: 1.6rem;
+}
+nav .nav-icons .flexDiv a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-nav {
+  background-color: #ffcb05;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-nav img {
+  width: 6rem;
+}
+.main-nav i {
+  font-size: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .container {
+  max-width: 375px;
+  background-color: white;
+  min-height: 100vh;
+  position: relative;
+  margin: 0 auto;
+}
+body p {
+  font-family: "Mona Sans", sans-serif;
+}
+body h3 {
+  font-family: "Mona Sans", sans-serif;
+}
+body h4 {
+  font-family: "Mona Sans", sans-serif;
+}
+
+.third p {
+  font-family: "Mona Sans", sans-serif;
+}
+.third .text-1 {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.third .big {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.third .small {
+  font-size: small;
+  color: rgba(0, 0, 0, 0.515);
+  margin-bottom: 20px;
+}
+.third .small .sync {
+  font-size: 12px;
+  color: black;
+}
+.third .cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0.5rem;
+}
+.third .cards p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.third .card1 {
+  border: 2px #ffcb05 solid;
+  padding: 1rem 2.8rem;
+  border-radius: 10px;
+  font-family: "Mona Sans", sans-serif;
+  font-weight: bold;
+}
+
+.heading {
+  padding: 10px;
+}
+
+.round-icons {
+  margin: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.round-icons .icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.round-icons .icons .icon-container {
+  padding: 15px 20px;
+  background-color: #ffcb05;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.round-icons .icons p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.special .special-head {
+  font-size: 1.2rem;
+  padding: 0 1rem;
+  margin-bottom: 5px;
+}
+.special .img-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.special .img-con .special-img {
+  width: 90%;
+  position: relative;
+}
+.special .img-con .special-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.special .img-con .bx {
+  position: absolute;
+  padding: 10px;
+}
+.special .img-con .left {
+  left: 10%;
+  color: white;
+  font-size: 2rem;
+}
+.special .img-con .right {
+  right: 10%;
+  color: white;
+  font-size: 2rem;
+}
+.special .img-con .text-dwn {
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */

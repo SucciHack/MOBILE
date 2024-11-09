@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    .container{
+        max-width: 375px;
+        background-color: white;
+        min-height: 100vh;
+        position: relative;
+        margin: 0 auto;
+    }
+& p{
+    font-family: "Mona Sans", sans-serif;
+}
+& h3{
+    font-family: "Mona Sans", sans-serif;
+}
+& h4{
+    font-family: "Mona Sans", sans-serif;
+}
+
+}

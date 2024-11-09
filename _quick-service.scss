@@ -1,0 +1,27 @@
+.heading{
+    padding: 10px;
+}
+.round-icons{
+    margin: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .icon-container{
+            padding: 15px 20px;
+            background-color: #ffcb05;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+}
