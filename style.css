@@ -68,6 +68,9 @@ body h3 {
 body h4 {
   font-family: "Mona Sans", sans-serif;
 }
+body h2 {
+  font-family: "Mona Sans", sans-serif;
+}
 
 .third p {
   font-family: "Mona Sans", sans-serif;
@@ -142,7 +145,16 @@ body h4 {
 .special .special-head {
   font-size: 1.2rem;
   padding: 0 1rem;
+  margin-bottom: 6px;
+}
+.special .special-head-2 {
+  font-size: 1rem;
+  padding: 0 1rem;
   margin-bottom: 5px;
+  margin-top: 2.2rem;
+}
+.special .special-head-2 h2 {
+  margin-top: 2rem;
 }
 .special .img-con {
   display: flex;
